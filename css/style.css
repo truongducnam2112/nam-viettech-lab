@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #1e293b;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    max-width: 450px;
+}
+
+h1 {
+    color: #38bdf8;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #94a3b8;
+    line-height: 1.5;
+}
+
+.status-badge {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #22c55e;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 20px;
+}
