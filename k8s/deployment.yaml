@@ -19,5 +19,6 @@ spec:
       containers:
       - name: nam-viettech-app
         image: 475309741409.dkr.ecr.ap-southeast-2.amazonaws.com/nam-web-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
